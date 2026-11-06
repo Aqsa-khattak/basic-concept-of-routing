@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(13, 161, 161);
+    padding: 15px 49px;
+}
+h3{
+    color: white;
+}
+.nav div{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.nav div a{
+    color: white;
+    text-decoration: none;
+}
